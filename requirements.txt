@@ -1,6 +1,6 @@
-vosk==0.3.45
-streamlit>=1.20.0
-numpy>=1.23.0
-streamlit-webrtc>=0.57.0
-requests>=2.31.0
-speech_recognition
+SpeechRecognition>=3.8.1
+pyaudio
+google-cloud-speech  # Pour Google Cloud
+azure-cognitiveservices-speech  # Pour Azure
+ibm-watson  # Pour IBM
+pocketsphinx  # Pour Sphinx (offline)
