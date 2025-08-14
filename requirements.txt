@@ -1,9 +1,9 @@
-SpeechRecognition>=3.8.1
-sounddevice
-vosk  # si tu veux du offline
 azure-cognitiveservices-speech
 ibm-watson
 pocketsphinx
-streamlit
 PyAudio==0.2.13
 python-3.10
+SpeechRecognition>=3.8.1
+sounddevice>=0.4.6
+vosk>=0.3.45
+streamlit-audio-rec>=0.0.3  # if using browser audio capture
