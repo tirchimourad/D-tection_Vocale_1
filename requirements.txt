@@ -1,4 +1,6 @@
-streamlit
-speechrecognition
-python==3.11
-datetime
+streamlit>=1.20.0
+numpy>=1.23.0
+speechrecognition>=3.8.1
+pyaudio>=0.2.13         
+vosk>=0.3.52             
+requests>=2.31.0       
