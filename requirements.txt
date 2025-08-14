@@ -1,6 +1,6 @@
-SpeechRecognition>=3.8.1
 pyaudio
 google-cloud-speech  # Pour Google Cloud
 azure-cognitiveservices-speech  # Pour Azure
 ibm-watson  # Pour IBM
 pocketsphinx  # Pour Sphinx (offline)
+
