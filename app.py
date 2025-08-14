@@ -5,7 +5,7 @@ from datetime import datetime
 # Fonction de transcription améliorée
 def transcribe_speech(api_choice, language):
    r = sr.Recognizer()
-    with sr.Microphone() as source:
+   with sr.Microphone() as source:
         st.info("Parlez maintenant...")
         try:
             audio_text = r.listen(source, timeout=5, phrase_time_limit=10)
@@ -72,4 +72,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
