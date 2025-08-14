@@ -7,3 +7,4 @@ SpeechRecognition>=3.8.1
 sounddevice>=0.4.6
 vosk>=0.3.45
 streamlit-audio-rec>=0.0.3  # if using browser audio capture
+soundfile>=0.12.1
