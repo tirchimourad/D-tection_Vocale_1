@@ -6,3 +6,4 @@ ibm-watson
 pocketsphinx
 streamlit
 PyAudio==0.2.13
+python-3.10
