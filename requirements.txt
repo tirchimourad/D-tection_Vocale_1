@@ -1,3 +1,4 @@
 streamlit
-speech_recognition
+speechrecognition
+python==3.11
 datetime
