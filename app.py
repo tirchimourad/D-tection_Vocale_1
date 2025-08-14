@@ -5,6 +5,7 @@ from datetime import datetime
 # Fonction de transcription améliorée
 def transcribe_speech(api_choice, language):
     r = sr.Recognizer()
+    audio_file = st.file_uploader("Choisir un fichier audio", type=["wav", "mp3", "flac"])
     with sr.AudioFile(audio_file) as source:
         audio_data = r.record(source)
         try:
@@ -73,4 +74,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
