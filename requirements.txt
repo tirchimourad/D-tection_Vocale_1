@@ -5,3 +5,4 @@ azure-cognitiveservices-speech
 ibm-watson
 pocketsphinx
 streamlit
+PyAudio==0.2.13
