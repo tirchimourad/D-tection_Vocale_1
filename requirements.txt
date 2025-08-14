@@ -1,6 +1,7 @@
-pyaudio
-google-cloud-speech  # Pour Google Cloud
-azure-cognitiveservices-speech  # Pour Azure
-ibm-watson  # Pour IBM
-pocketsphinx  # Pour Sphinx (offline)
-
+SpeechRecognition>=3.8.1
+sounddevice
+vosk  # si tu veux du offline
+azure-cognitiveservices-speech
+ibm-watson
+pocketsphinx
+streamlit
